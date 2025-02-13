@@ -1,0 +1,92 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    /* Retro pixel font for that gamer vibe */
+    background-color: #3c2c2c98;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The container of the text */
+.container {
+    text-align: center;
+}
+
+/* Anime/Gamer text style */
+.anime-text {
+    font-size: 3rem;
+    /* Large text for impact */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    /* White glow effect */
+    text-shadow:
+        0 0 5px #ffffff,
+        /* White glow around the text */
+        0 0 10px #ffffff,
+        0 0 15px #ffffff,
+        0 0 20px #ffffff,
+        0 0 25px #ffffff;
+    animation: glow 1.5s ease-in-out infinite alternate;
+    /* Glowing animation */
+}
+
+/* Glowing animation for text */
+@keyframes glow {
+    0% {
+        text-shadow:
+            0 0 5px #ffffff,
+            0 0 10px #ffffff,
+            0 0 15px #ffffff,
+            0 0 20px #ffffff,
+            0 0 25px #ffffff;
+    }
+
+    100% {
+        text-shadow:
+            0 0 10px #ffffff,
+            0 0 20px #ffffff,
+            0 0 30px #ffffff,
+            0 0 40px #ffffff,
+            0 0 50px #ffffff;
+    }
+}
+
+/* Anime button styling */
+.anime-button {
+    background: linear-gradient(45deg, #ff0080, #ff8c00);
+    /* Vibrant gradient */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.anime-button:hover {
+    background: linear-gradient(45deg, #ff8c00, #ff0080);
+    /* Reverse the gradient on hover */
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.anime-button:focus {
+    outline: none;
+}
