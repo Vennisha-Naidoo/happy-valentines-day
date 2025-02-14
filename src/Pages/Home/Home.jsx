@@ -34,11 +34,11 @@ export default function Home() {
 
     return (
         <div className="container">
-            <p>Happy Valentine's Day</p><br />
+            <p style={{ paddingTop: 100 }}>Happy Valentine's Day</p>
             <p className="anime-text" style={{ color: currentColor }}>
                 {currentName}
             </p>
-            <br /><br /><br /><br /><br />
+            <br /><br /><br />
             <Link to="/anime">
                 <button className="anime-button">Click Here!</button>
             </Link>
