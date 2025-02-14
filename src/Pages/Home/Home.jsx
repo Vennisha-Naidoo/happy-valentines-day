@@ -34,7 +34,7 @@ export default function Home() {
 
     return (
         <div className="container">
-            <p>Welcome</p><br />
+            <p>Happy Valentine's Day</p><br />
             <p className="anime-text" style={{ color: currentColor }}>
                 {currentName}
             </p>
