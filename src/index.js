@@ -4,7 +4,7 @@ import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './Pages/Layout';
 import Home from './Pages/Home/Home';
-import Anime from './Pages/Anime';
+import Anime from './Pages/Anime/Anime';
 
 
 export default function App() {

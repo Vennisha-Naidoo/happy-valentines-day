@@ -8,17 +8,24 @@
 body {
     font-family: 'Press Start 2P', cursive;
     /* Retro pixel font for that gamer vibe */
-    background-color: #3c2c2c98;
+    background-color: #000000;
     color: white;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; /* Stack elements vertically */
 }
 
 /* The container of the text */
 .container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space elements vertically */
+    height: 100%; /* Take up full height of the screen */
+    padding: 20px;
+    width: 100%; /* Ensure the container uses full width */
 }
 
 /* Anime/Gamer text style */
@@ -64,8 +71,9 @@ body {
 
 /* Anime button styling */
 .anime-button {
-    background: linear-gradient(45deg, #ff0080, #ff8c00);
+    background: linear-gradient(45deg, #ff0080, #ff0000);
     /* Vibrant gradient */
+    width: 350px;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -81,7 +89,7 @@ body {
 }
 
 .anime-button:hover {
-    background: linear-gradient(45deg, #ff8c00, #ff0080);
+    background: linear-gradient(45deg, #ff0000, #ff0080);
     /* Reverse the gradient on hover */
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);

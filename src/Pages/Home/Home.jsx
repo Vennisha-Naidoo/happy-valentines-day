@@ -29,7 +29,7 @@ export default function Home() {
             setCurrentColor(lstNames[names[index]]);
         }, 1000);
 
-        return () => clearInterval(interval); // Clear the interval when the component unmounts
+        return () => clearInterval(interval);
     }, []);
 
     return (
@@ -38,10 +38,11 @@ export default function Home() {
             <p className="anime-text" style={{ color: currentColor }}>
                 {currentName}
             </p>
-            <br /><br /><br />
+            <br /><br /><br /><br /><br />
             <Link to="/anime">
                 <button className="anime-button">Click Here!</button>
             </Link>
+            <img src='https://i.pinimg.com/originals/b1/58/f4/b158f4cc0584572b4cdab742ef9bf7c0.gif' height='350' />
         </div>
     );
 }
