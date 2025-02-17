@@ -5,6 +5,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './Pages/Layout';
 import Home from './Pages/Home/Home';
 import Anime from './Pages/Anime/Anime';
+import Game from './Pages/Game/Game';
+import Reasons from './Pages/Reasons/Reasons';
 
 
 export default function App() {
@@ -14,6 +16,8 @@ export default function App() {
         <Route path='/' element={ <Layout /> } />
         <Route index element={ <Home /> } />
         <Route path="anime" element={<Anime />} /> 
+        <Route path="game" element={<Game />} /> 
+        <Route path="reasons" element={<Reasons />} /> 
       </Routes>
     </BrowserRouter>
   )

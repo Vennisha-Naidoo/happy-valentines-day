@@ -1,4 +1,4 @@
-export default function ImageDiv({ text, imgSrc, altText = "image", className = "" }) {
+export default function ImageDiv({ text="", imgSrc="", altText = "image", className = "" }) {
     return (
         <div className={`image-div ${className}`} style={{ maxWidth: '100%', paddingBottom:"5%" }}>
             <img 

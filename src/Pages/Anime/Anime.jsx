@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ImageDiv from "../../Components/ImageDiv";
 
 export default function Anime() {
@@ -27,5 +28,20 @@ export default function Anime() {
             text="Nice snake you got... there ;) - (I'm sorry)"
         />
 
+        <ImageDiv
+            imgSrc="https://gifdb.com/images/high/kafka-hibino-kaiju-no-8-fight-i6hxikwhf5oxb2je.gif"
+            text="My love for you is THIS strong!"
+        />
+
+        <ImageDiv
+            imgSrc="https://blog.lootcrate.com/wp-content/uploads/2018/11/gc_dn_bookheader.gif"
+            text="The only place I would NOT write your name ;) - (since I've been writing it EVERYWHERE)"
+        />
+
+        <div className="container" style={{ paddingBottom: 50 }}>
+            <Link to="/game">
+                <button className="anime-button">Next Next Next!</button>
+            </Link>
+        </div>
     </div>
 }
