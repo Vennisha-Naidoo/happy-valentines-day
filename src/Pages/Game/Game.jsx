@@ -10,7 +10,7 @@ export default function Game() {
 
         <ImageDiv
             imgSrc="https://miro.medium.com/v2/resize:fit:640/format:webp/0*E8e1sz4HQRaehMEt"
-            text="You will go with you into Electrical <3 - You will never have to face situations with fear or anxiety alone. I got you! - Because Among Us was the first game I agreed to playing with you - and your friends"
+            text="I will go with you into Electrical <3 - You will never have to face situations with fear or anxiety alone. I got you! - Because Among Us was the first game I agreed to playing with you - and your friends"
         />
 
         <ImageDiv
