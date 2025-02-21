@@ -34,7 +34,7 @@ export default function Anime() {
         />
 
         <ImageDiv
-            imgSrc="https://blog.lootcrate.com/wp-content/uploads/2018/11/gc_dn_bookheader.gif"
+            imgSrc="https://pa1.aminoapps.com/6757/a03ddc46eebec5ba3bea3cc9a09fb55451b26f57_hq.gif"
             text="The only place I would NOT write your name ;) - (since I've been writing it EVERYWHERE)"
         />
 
